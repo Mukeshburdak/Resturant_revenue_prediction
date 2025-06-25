@@ -64,7 +64,7 @@ Feature importance indicated cost for two, votes, and online delivery as major p
 bash
 Copy
 Edit
-git clone https://github.com/Mukeshburdak/restaurant-rating-prediction.git
+git clone [https://github.com/Mukeshburdak/restaurant-rating-prediction]
 cd restaurant-rating-prediction
 pip install -r requirements.txt
 🚀 How to Run
@@ -80,5 +80,5 @@ Incorporate sentiment analysis from customer reviews
 
 👨‍💻 Author
 Mukesh Burdak
-GitHub | LinkedIn
+[GitHub] | [LinkedIn]
 
