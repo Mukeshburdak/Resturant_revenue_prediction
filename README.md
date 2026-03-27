@@ -83,7 +83,7 @@ Used for:
 - 📢 Marketing Spend
 - ⭐ Reviews
 Generated useful insights for business decision-making
-# # 🛠️ Tech Stack
+# 🛠️ Tech Stack
 - Python 🐍
 - Pandas & NumPy
 - Matplotlib & Seaborn
