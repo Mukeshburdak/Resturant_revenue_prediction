@@ -1,79 +1,110 @@
-# Resturant_revenue_prediction
+# 🍽️ Restaurant Revenue Prediction & Recommendation System
+# 📌 Overview
 
-🍽️ Predict Restaurant Ratings
-📌 Objective
-The objective of this project is to develop a machine learning model that accurately predicts the aggregate rating of a restaurant based on various features such as location, cuisine, cost, online delivery options, and more. This helps platforms and businesses in providing better recommendations and gaining deeper insights into customer preferences.
+This project focuses on restaurant data analysis and prediction using both regression and classification techniques.
 
-📊 Problem Statement
-Restaurant reviews and ratings provide valuable information to users. However, many new or less-reviewed restaurants lack sufficient ratings. This project aims to predict the restaurant's aggregate rating using its metadata, offering useful insights even before reviews accumulate.
+It involves:
 
-📁 Dataset
-The dataset contains multiple attributes of restaurants including:
+- Predicting restaurant revenue
+- Analyzing customer behavior
+- Building data-driven insights for business decisions
 
-Name
+# 📊 Built using Python, Machine Learning, and Data Visualization techniques.
 
-Location
+# 🎯 Objectives
+- Predict Monthly Revenue of restaurants
+- Perform data analysis and visualization
+- Apply regression models for prediction
+- Use classification techniques for insights and recommendations
+# 📊 Problem Statement
 
-Approximate cost for two
+Restaurants rely on multiple factors like customer count, pricing, and marketing to generate revenue.
 
-Online delivery availability
+This project aims to:
 
-Table booking availability
+- Analyze these factors
+- Build ML models
+- Provide accurate predictions and insights
+# 📁 Dataset Features
 
-Cuisines
+The dataset contains the following attributes:
 
-Type of restaurant
+- Number_of_Customers
+- Menu_Price
+- Marketing_Spend
+- Cuisine_Type
+- Average_Customer_Spending
+- Promotions
+- Reviews
+- Monthly_Revenue (Target Variable)
+# ⚙️ Project Workflow
+1️⃣ Data Preprocessing
+- Handling missing values
+- Encoding categorical features (Cuisine_Type)
+- Feature scaling
+- Data cleaning
+  
+2️⃣ Exploratory Data Analysis (EDA)
+- Distribution plots
+- Correlation heatmaps
+- Feature relationships
+- Business insights extraction
+  
+3️⃣ Data Visualization
+- Revenue trends
+- Customer behavior analysis
+- Impact of marketing & promotions
+  
+4️⃣ Machine Learning Models
 
-Votes
+🔹 Regression Models
+- Linear Regression
+- Decision Tree Regressor
 
-Listed dish likes
+Used for predicting Monthly Revenue
 
-And more...
+🔹 Classification Models
+- Logistic Regression
 
-⚙️ Features Used
-Categorical and numerical data preprocessing
+Used for:
 
-Feature engineering (e.g., encoding, imputation)
+- Categorizing restaurant performance
+- Supporting recommendation logic
+# 📈 Evaluation Metrics
+- Root Mean Squared Error (RMSE)
+- R² Score
+- Mean Absolute Error (MAE)
+- Accuracy (for classification tasks)
+# 🏁 Results
+- Successfully built regression models for revenue prediction
+- Identified key factors:
+- 👥 Number of Customers
+- 💰 Menu Price
+- 📢 Marketing Spend
+- ⭐ Reviews
+Generated useful insights for business decision-making
+# # 🛠️ Tech Stack
+- Python 🐍
+- Pandas & NumPy
+- Matplotlib & Seaborn
+- Scikit-learn
+# 🚀 How to Run
+# Clone the repository
+```
+git clone https://github.com/Mukeshburdak/Resturant_revenue_prediction
+```
 
-Exploratory Data Analysis (EDA)
+# Navigate to folder
+```
+cd Resturant_revenue_prediction
+```
 
-Correlation & feature importance analysis
-
-🧠 ML Models Applied
-Linear Regression
-
-Decision tree
-
-Logistic Regression
-
-Final model chosen based on RMSE and R² score performance on the validation set.
-
-📈 Evaluation Metrics
-Root Mean Squared Error (RMSE)
-
-R² Score
-
-Mean Absolute Error (MAE)
-
-🏁 Results
-Achieved an R² score of XX.XX on the test set
-
-Feature importance indicated cost for two, votes, and online delivery as major predictors
-
-🛠️ Installation
-bash
-Copy
-Edit
-git clone [https://github.com/Mukeshburdak/Resturant_revenue_prediction]
-cd restaurant-rating-prediction
+# Install dependencies
+```
 pip install -r requirements.txt
-🚀 How to Run
-bash
-Copy
-Edit
-# Run the notebook or script
-python model_train.py
-# or open in Jupyter
-jupyter notebook Restaurant_Rating_Prediction.ipynb
-📌 Future Work
-Incorporate sentiment analysis from customer reviews
+```
+
+# Run notebook
+```
+jupyter notebook Recommendations_with_Regression_and_Classification.ipynb
+```
